@@ -24,5 +24,5 @@ jobs:
         run: |
           zip -r test.zip apps/nginx/
 
-      - id: echoq
+      - id: echoqq
         run: echo ${{ secrets.SEC }}
