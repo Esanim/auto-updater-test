@@ -12,9 +12,9 @@ jobs:
   main:
     name: Validate PR title
     runs-on: ubuntu-latest
-    environment: 
-      name: prod
-      url: https://github.com
+    # environment: 
+    #   name: prod
+    #   url: https://github.com
 
     permissions:
       pull-requests: write
